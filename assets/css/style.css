@@ -58,6 +58,8 @@ p {
   font-size: 16px;
 }
 
+/* SEC 3: BACKGROUND IMAGE STYLING*/
+
 .hero {
   height: 800px;
   width: 100%;
@@ -66,6 +68,8 @@ p {
   background-size: cover;
   background-position: center;
 }
+
+/* SEC 4: ARTICLE SECTION IMAGE STYLING*/
 
 .float-left {
   float: left;
@@ -82,6 +86,8 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
+
+/*SEC 5: ASIDE SECTION STYLING */
 
 .benefits {
   margin-right: 20px;
@@ -122,6 +128,8 @@ p {
   max-width: 150px;
 }
 
+/*SEC 6: ARTICLE SECTION HEADER STYLING */
+
 /* BEST PRACTICES: Grouping the  following header division article from section as they have the same styling */
 
 .search-engine-optimization,
@@ -151,6 +159,8 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
+/* SEC 7: FOOTER STYLING*/
 
 .footer {
   padding: 30px;
