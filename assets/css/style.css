@@ -1,3 +1,4 @@
+/* UNIVERSAL SELECTOR, REPRESENTING THE WHOLE web page*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -89,72 +90,38 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
+/* BEST PRACTICES: Grouping the  following classes as they have the same styling */
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
+/* BEST PRACTICES: Grouping the  following h3 headers as they have the same styling */
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
+/* BEST PRACTICES: Grouping the  following images from aside section as they have the same styling */
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
+/* BEST PRACTICES: Grouping the  following h2 header division article from section as they have the same styling */
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
@@ -164,14 +131,8 @@ p {
   color: #ffffff;
 }
 
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
