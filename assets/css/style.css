@@ -89,6 +89,8 @@ p {
 
 figcaption {
   color: red;
+  display: flex;
+  flex-flow: column;
 }
 
 /*SEC 5: ASIDE SECTION STYLING */
