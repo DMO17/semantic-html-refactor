@@ -87,6 +87,10 @@ p {
   margin-left: 20px;
 }
 
+figcaption {
+  color: red;
+}
+
 /*SEC 5: ASIDE SECTION STYLING */
 
 .benefits {
