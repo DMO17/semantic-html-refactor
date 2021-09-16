@@ -7,12 +7,10 @@
   </head>
 
   <body>
-    <!-- Semantic HTML:The logo and navigation links should be wrapped in a header tag not a div tag -->
+    <!-- Semantic HTML:The logo and navigation links (nav bar) is nested in a header tag -->
 
     <header class="header">
       <h1>Hori<span class="seo">seo</span>n</h1>
-
-      <!--Semantic HTML: the navigation links should be wrapped in nav tag not a div -->
 
       <nav>
         <ul>
@@ -31,23 +29,21 @@
       </nav>
     </header>
 
-    <!--Semantic HTML: Wrapping the background-image in a section tag -->
+    <!--Semantic HTML: The large background image is nested in a section tag  -->
 
     <section class="hero"></section>
 
-    <!--Semantic HTML: Replaced the div with a section tag to define the left hand side section of the contents -->
+    <!--Semantic HTML: The 3 independent self contained content is nested in an article tag which is then grouped together and nested in a main tag showing the main content of the web-page -->
+
+    <!--Semantic HTML: The img and figcaption elements are nested in a figure tag and for accessibility reasons an alt attribute is added -->
 
     <main class="content">
-      <!-- Semantic HTML: Replaced the div with article tags for each of the 3 in order to specify independent self contained content   -->
-
-      <!--Semantic HTML: Nesting the img tag in a figure tag and adding a figcaption in the figure tag-->
+      <!--added id element in order to link the search engine bar on the nav bar -->
 
       <article
         class="search-engine-optimization"
         id="search-engine-optimization"
       >
-        <!--added id element in order to link the search engine bar on the nav bar-->
-
         <figure class="services-img">
           <img
             src="./assets/images/search-engine-optimization.jpg"
@@ -112,9 +108,9 @@
       </article>
     </main>
 
-    <!--Semantic HTML: Due to the additional content on the RHS of the main, a aside tag is required-->
+    <!--Semantic HTML: The additional content on the right hand side is nested in a aside tag-->
 
-    <!-- Semantic HTML: due to accessability adding alt function to all the images on the aside section-->
+    <!-- Semantic HTML: Due to accessability alt attribute is added to all the images in the aside section-->
 
     <aside class="benefits">
       <div class="benefit-lead">
@@ -154,7 +150,7 @@
       </div>
     </aside>
 
-    <!--Semantic HTML: Changing dive for a footer tag -->
+    <!--Semantic HTML: Footer tag used to nest the h2 heading and paragraph  -->
     <footer class="footer">
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
