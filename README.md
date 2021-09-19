@@ -23,4 +23,4 @@ Refactoring existing code without changing the design and functionality of the w
 
 ## Complete Project:
 
-To see the full deployed web-page project <a href="google.com">click here </a>
+To see the full URL deployed web-application project <a href="https://dmo17.github.io/semantic-html-refactor/">click here </a>
