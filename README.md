@@ -23,4 +23,4 @@ Refactoring existing code without changing the design and functionality of the w
 
 ## Complete Project:
 
-To see the full deployed web-page project <a href="google.com">click here</a>
+To see the full deployed web-page project <a href="google.com">click here </a>
