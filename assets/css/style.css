@@ -30,8 +30,6 @@ body {
   color: #d9dcd6;
 }
 
-/* Refactor: Due to the div changing to nav in html the the styling of the navigation links need to be referenced using the nav selector tag*/
-
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -106,8 +104,6 @@ figcaption {
   background-color: #2589bd;
 }
 
-/* BEST PRACTICES: Grouping the  following classes as they have the same styling */
-
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -115,16 +111,12 @@ figcaption {
   color: #ffffff;
 }
 
-/* BEST PRACTICES: Grouping the  following h3 headers as they have the same styling */
-
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-
-/* BEST PRACTICES: Grouping the  following images from aside section as they have the same styling */
 
 .benefit-lead img,
 .benefit-brand img,
@@ -135,8 +127,6 @@ figcaption {
 }
 
 /*SEC 6: ARTICLE SECTION HEADER STYLING */
-
-/* BEST PRACTICES: Grouping the  following header division article from section as they have the same styling */
 
 .search-engine-optimization,
 .online-reputation-management,
@@ -149,15 +139,11 @@ figcaption {
   color: #ffffff;
 }
 
-/* BEST PRACTICES: Grouping the  following h2 header image division article from section as they have the same img styling */
-
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
-
-/* BEST PRACTICES: Grouping the  following h2 header division article from section as they have the same styling */
 
 .search-engine-optimization h2,
 .online-reputation-management h2,
